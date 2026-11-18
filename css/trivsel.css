@@ -240,7 +240,7 @@ margin: 0 0 12px;
 }
 
 /*Fakta Red Barnet - mobil*/
-@media (max-widht:600px) {
+@media (max-width:600px) {
     .fakta-indhold {
         flex-direction: column;
         align-items: flex-start;
