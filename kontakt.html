@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <!--Hjemmesidens titel-->
+    <title>Ufiltreret - Kontakt</title>
+
+    <!--Beksirvelse af hjemmesiden-->
+    
+    <meta name="description" content="Ufiltreret giver dig viden og gode råd til at navigere kritisk og sikkert online">
+
+    <!--Font Awsome-->
+    <script src="https://kit.fontawesome.com/9215308fda.js" crossorigin="anonymous"></script>
+
+    <!--Google Fonts-->
+     <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Capriola&family=Lora:ital,wght@0,400..700;1,400..700&family=Source+Sans+3:ital@0;1&family=Swanky+and+Moo+Moo&display=swap" rel="stylesheet">
+
+    <!--CSS-->
+   
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/kontakt.css">
+
+    <!--JavaScript-->
+    <script src="script.js" defer></script>
+
+</head>
+<body>
+    <!--Hop direkte til hovedindhold-->
+    <a href="#hovedindhold" class="screen-reader-text">
+        Hop til hovedindhold
+
+    </a>
+    <!--Header og navigation-->
+     <header class="header">
+
+        <nav class="navigation" aria-label="Hovednavigation">
+
+   <!--Logo-->
+    <a href="index.html" class="logo">
+        <img src="images/logo-ufiltreret.png" alt="Ufiltreret - forsiden">
+    </a>
+
+    <!--Hamburgerknap til mobil-->
+    <button
+    class="menu-knap"
+    id="bars"
+    type="button"
+    aria-expanded="false"
+    aria-controls="menu"
+    aria-label="Åben navigation">
+
+    <i class="fa-solid fa-bars" aria-hidden="true"></i>
+
+</button>
+
+<!--Navigations menu-->
+<ul class="menu" id="menu">
+
+    <li>
+        <a href="index.html">Forside</a>
+    </li>
+    <li>
+        <a href="trivsel.html">Trivsel online</a>
+    </li>
+    <li>
+        <a href="kontakt.html" aria-current="page">Kontakt</a>
+    </li>
+</ul>
+
+</nav>
+     </header>
+
+     <!--Hovedindhold-->
+     <main id="hovedindhold">
+
+        <!--Kontakt felt-->
+        <section class="kontakt-hero">
+
+            <div class="kontakt-hero-tekst">
+
+                <p class="overline">KONTAKT</p>
+
+                <h1>Har du spørgsmål eller gode idéer?</h1>
+
+                <p>
+                    Vi glæder os til at høre fra dig!
+                    <br>
+                    Du er altid velkommen til at ringe eller skrive, hvis du har spørgsmål.
+                </p>
+            </div>
+
+            <div class="kontakt-hero-billede">
+                <img 
+                src="images/kontakt.png"
+                alt="Person holder en mobiltelefon i hånden">
+            </div>
+       </section>
+
+       <!--Kontaktformular-->
+       <section class="kontakt-indhold">
+
+        <div class="kontakt-formular">
+            <form>
+
+                <div class="formular-felt">
+                    <label for="navn">Navn *</label>
+                    <input
+                    type="text"
+                    id="navn"
+                    name="navn"
+                    placeholder="Dit navn..."
+                    autocomplete="name"
+                    required>
+                </div>
+
+                <div class="formular-felt">
+                    <label for="email">E-mail *</label>
+                    <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    placeholder="Din e-mail..."
+                    autocomplete="email"
+                    required>
+                </div>
+
+                <div class="formular-felt">
+                    <label for="besked">Besked *</label>
+                    <textarea
+                    id="besked"
+                    name="besked"
+                    placeholder="Skriv din besked her..."
+                    rows="5"
+                    required></textarea>
+                </div>
+
+                <button type="button" class="send-knap">
+                    Send besked
+                </button>
+
+                <p class="formular-info">
+                    *Felter markeret med stjerne skal udfyldes.
+                </p>
+            </form>
+
+        </div>
+
+        <!--Motto-->
+        <aside class="kontakt-citat">
+            <span class="citat-tegn" aria-hidden="true">"</span>
+
+            <p class="citat-tekst">
+                "Sammen passer vi på hinanden & skaber et sundere online miljø."
+            </p>
+
+            <span class="citat-streg" aria-hidden="true"></span>
+
+            <p class="citat-undertekst">
+                ET LILLE BUDSKAB FRA UFILTRERET
+            </p>
+
+            <span class="citat-hjerte" aria-hidden="true">♡</span>
+            
+         </aside>
+
+        </section>
+
+    </main>
+
+    <!--footer-->
+    <footer class="footer">
+
+        <div class="footer-logo">
+            <a href="index.html" class="logo">Ufiltreret</a>
+
+            <p>
+                SAMMEN PASSER VI PÅ HINANDEN & SKABER ET SUNDERE ONLINE MILJØ
+            </p>
+        </div>
+
+        <div class="footer-navigation">
+            <h2>Navigation</h2>
+
+            <ul>
+                <li><a href="index.html">Forside</a></li>
+                <li><a href="trivsel.html">Trivsel online</a></li>
+                <li><a href="kontakt.html" aria-current="page">Kontakt</a></li>
+            </ul>
+        </div>
+
+         <!--Kontakt-->
+         <div class="footer-kontakt">
+
+            <h2>Kontakt</h2>
+
+            <address>
+                <a href="mailto:kontakt@ufiltreret.dk">
+                    Kontakt@ufiltreret.dk
+                </a>
+
+                <p>+45 12 34 56 67</p>
+                <p>Slagelse, Danmark</p>
+            </address>
+        </div>
+
+        <!--Sociale medier-->
+        <div class="footer-sociale-medier">
+            
+            <h2>Følg med</h2>
+
+            <div class="sociale-ikoner">
+                <i class="fa-brands fa-instagram" aria-hidden="true"></i>
+                <i class="fa-brands fa-tiktok" aria-hidden="true"></i>
+            </div>
+
+        </div>
+     </footer>
+
+
+
+    
+</body>
+</html>

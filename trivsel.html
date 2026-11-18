@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+   <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <!--Hjemmesidens titel-->
+    <title>Ufiltreret - Trivsel online</title>
+
+    <!--Beksirvelse af hjemmesiden-->
+    
+    <meta name="description" content="Ufiltreret giver dig viden og gode råd til at navigere kritisk og sikkert online">
+
+    <!--Font Awsome-->
+    <script src="https://kit.fontawesome.com/9215308fda.js" crossorigin="anonymous"></script>
+
+    <!--Google fonts-->
+     <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Capriola&family=Lora:ital,wght@0,400..700;1,400..700&family=Source+Sans+3:ital@0;1&family=Swanky+and+Moo+Moo&display=swap" rel="stylesheet">
+
+    <!--CSS-->
+   
+    <link rel="stylesheet" href="css/style.css">
+    <Link rel="stylesheet" href="css/trivsel.css">
+
+    <!--JavaScript-->
+    <script src="script.js" defer></script>
+
+</head>
+<body>
+    <!--Hop direkte til hovedindhold-->
+    <a href="#hovedindhold" class="screen-reader-text">
+        Hop til hovedindhold
+    </a>
+
+    <!--Header og navigation-->
+    <header class="header">
+
+        <nav class="navigation" aria-label="Hovednavigation">
+        
+            <!--Logo-->
+    <a href="index.html" class="logo">
+        <img src="images/logo-ufiltreret.png" alt="Ufiltreret - forsiden">
+    </a>
+
+    <!--Hamburgermenu knap til mobil-->
+
+            <button
+            class="menu-knap"
+            id="bars"
+            type="button"
+            aria-expanded="false"
+            aria-controls="menu"
+            aria-label="Åben navigation">
+
+            <i class="fa-solid fa-bars" aria-hidden="true"></i>
+        
+        </button>
+
+        <ul class="menu" id="menu">
+
+            <li>
+                <a href="index.html">Forside</a>
+            </li>
+
+            <li>
+                <a href="trivsel.html" aria-current="page">Trivsel online</a>
+            </li>
+
+            <li>
+                <a href="kontakt.html">Kontakt</a>
+            </li>
+        </ul>
+</nav>
+
+</header>
+
+<!--Hovedindhold-->
+<main id="hovedindhold">
+
+<!--Introduktion-->
+<section class="trivsel-hero">
+
+    <div class="trivsel-hero-text">
+        <p class="overline">TRIVSEL ONLINE</p>
+
+        <h1>Navigér kritisk online</h1>
+
+        <p>
+            Sociale medier kan være en fantastisk måde at holde kontakt, finde inspiration og lære noget nyt.
+            <br>
+            Men de kan også påvirke vores trivsel, selvværd og virkelighedsopfattelse.
+        </p>
+
+        <p>
+            Her får du viden og konkrete råd til, hvordan du kan navigere mere sikkert og bevidst i en digital hverdag.
+        </p>
+
+    </div>
+
+    <div class="trivsel-hero-image">
+        <img
+        src="images/kritisk-online.png"
+        alt="Ung person ser på indhold på sociale medier med spørgsmålstegn og symboler omkring sig">
+    </div>
+
+</section>
+
+<!--Genveje til de tre emner-->
+<nav class="emne-genveje" aria-label="Gå til emne">
+
+    <a href="#digital-trivsel">Digital trivsel</a>
+    <a href="#ai-indhold">AI og falsk indhold</a>
+    <a href="#algoritmer">Algoritmer i dit feed</a>
+
+</nav>
+
+<!--Digital trivsel emne-->
+<section class="trivsel-emne" id="digital-trivsel">
+    <div class="trivsel-billede">
+        <img 
+        src="images/digital-trivsel.png"
+        alt="Ung kvinde sidder og reflekterer over sin digitale verden">
+    
+    </div>
+
+    <div class="trivsel-tekst">
+        <h2>Digital trivsel</h2>
+
+        <p>
+            Hvorfor påvirker sociale medier dit humør?
+        </p>
+
+        <p>
+            Har du nogensinde prøvet at føle dig lidt utilstrækkelig, efter at have scrollet gennem Instagram og TikTok?
+        </p> 
+            
+        <p>
+            Sociale medier kan påvirke, hvordan vi ser på os selv og andre. Vi møder hele tiden billeder af perfekte kroppe, fede oplevelser og liv, der er svære at sammenligne sig selv med. 
+        </p> 
+         
+        <p>
+             Så husk: Det, du ser online, er kun et lille udsnit af virkeligheden!
+        </p>
+
+        <p class="kilde">
+            Kilde: VIVE (2020), Børn og unges trivsel og brug af sociale medier.
+        </p>
+</div>
+
+<!--Gode råd 1-->
+<aside class="raad-boks">
+
+    <h3>Gode råd til trivsel online</h3>
+
+    <ul>
+        <li>
+            <i class="fa-regular fa-clock" aria-hidden="true"></i>
+            Tag pauser fra sociale medier.
+        </li>
+
+        <li>
+            <i class="fa-regular fa-heart" aria-hidden="true"></i>
+            Læg mærke til, hvordan du har det efter brugen af et socialt medie. 
+        </li>
+
+        <li>
+            <i class="fa-regular fa-users" aria-hidden="true"></i>
+            Følg kun profiler, der gør dig glad og inspirerer dig.
+        </li>
+
+        <li>
+            <i class="fa-regular fa-bell-slash" aria-hidden="true"></i>
+            Slå notifikationer fra, når du har brug for det.
+        </li>
+
+        <li>
+            <i class="fa-regular fa-eye" aria-hidden="true"></i>
+            Husk, at det du ser, kun er en del af historien.
+        </li>
+ </ul>
+
+</aside>
+
+</section>
+
+<!--AI og falsk indhold-->
+<section class="trivsel-emne" id="ai-indhold">
+    <div class="trivsel-billede">
+        <img 
+        src="images/ai-indhold.png"
+        alt="Ung kvinde holder en maske foran sit ansigt som symbol på kunstig intelligens">
+    </div>
+
+    <div class="trivsel-tekst">
+
+        <h2>AI og falsk indhold</h2>
+
+        <p>
+            Kan du se, hvad der er ægte?
+        </p>
+
+        <p>
+            AI kan skabe billeder, videoer og lyd, der alt sammen ser ægte ud.
+            Derfor kan det være svært at skelne mellem ægte og manipuleret indhold. 
+        </p> 
+    
+            
+        <p>
+            Hvad nu, hvis personen i videoen aldrig har sagt det, du hørte på Tiktok?
+        </p> 
+         
+        <p>
+             Det er derfor det er så vigtigt at være kritisk, tjekke kilder og tænke sig om, før man deler noget videre.
+        </p>
+
+        <p class="kilde">
+            Kilde: Red Barnet (u.å.). Hvordan påvirker kunstig intelligens børns og unges liv.
+        </p>
+    
+    </div>
+
+    <!--Gode råd 2-->
+    <aside class="raad-boks">
+
+    <h3>Gode råd til at vurdere indhold</h3>
+
+    <ul>
+        <li>
+            <i class="fa-solid fa-magnifying-glass" aria-hidden="true"></i>
+            Tjek hvem der har delt indholdet.
+        </li>
+
+        <li>
+            <i class="fa-regular fa-image" aria-hidden="true"></i>
+            Se efter tegn på redigering eller urealistiske detaljer. 
+        </li>
+
+        <li>
+            <i class="fa-solid fa-shield-halved" aria-hidden="true"></i>
+            Sammenlign med troværdige kilder.
+        </li>
+
+        <li>
+            <i class="fa-solid fa-camera" aria-hidden="true"></i>
+            Brug billedesøgning, hvis du er i tvivl.
+        </li>
+
+        <li>
+            <i class="fa-solid fa-share-nodes" aria-hidden="true"></i>
+            Del ikke indhold, som ikke er bekræftet.
+        </li>
+ </ul>
+
+</aside>
+
+</section>
+
+<!--Algoritmer-->
+<section class="trivsel-emne" id="algoritmer">
+
+    <div class="trivsel-billede">
+        <img 
+        src="images/algoritmer.png"
+        alt="Hænder holder en mobiltelefon med sociale medier og indhold omkrirg sig">
+   </div>
+
+   <div class="trivsel-tekst">
+    <h2>Algoritmer i dit feed</h2>
+
+    <p>
+            Hvorfor får du vist lige præcis det indhold?
+        </p>
+
+        <p>
+            Har du mon lagt mærke til, at dit feed på TikTok, Facebook eller Instagram, hurtigt bliver fyldt med noget du lige har set? 
+        </p> 
+
+        
+            
+        <p>
+            Sociale medier bruger algoritmer til at vælge, hvad du får i dit næste scroll. Algoritmen ser på hvad du lige har liket, delt eller brugt meget tid på at undersøge.
+        </p> 
+         
+        <p>
+            Det betyder også at to venner ikke nødvendigvis ser det samme indhold, selvom de bruger samme app.
+        </p>
+
+        <p class="kilde">
+            Kilde: Børns Vilkår (2025). Forbrug i feed'et - børn som forbrugere i en digital tid.
+        </p>
+    </div>
+
+    <!--Gode råd 3-->
+    <aside class="raad-boks">
+        <h3>Gode råd til at tage kontrol</h3>
+
+        <ul>
+        <li>
+            <i class="fa-solid fa-sliders" aria-hidden="true"></i>
+            Nulstil algoritmen.
+        </li>
+
+        <li>
+            <i class="fa-solid fa-user" aria-hidden="true"></i>
+            Vær opmærksom på, hvilke profiler du følger. 
+        </li>
+
+        <li>
+            <i class="fa-regular fa-thumbs-down" aria-hidden="true"></i>
+            Skjul eller stop indhold, der påvirker dig negativt.
+        </li>
+
+        <li>
+            <i class="fa-regular fa-compass" aria-hidden="true"></i>
+            Søg aktivt efter andre perspektiver.
+        </li>
+
+        <li>
+            <i class="fa-solid fa-brain" aria-hidden="true"></i>
+            Spørg dig selv, om du har lyst til at købe noget på grund af en trend eller reklame.
+        </li>
+ </ul>
+
+</aside>
+    
+</section>
+
+<!--Fakta fra Red Barnet-->
+<section class="fakta">
+
+    <p class="overline">VIDEN FRA RED BARNET</p>
+
+    <h2>Når nettet ikke føles trygt</h2>
+
+    <div class="fakta-indhold">
+
+        <div class="fakta-tal-område">
+            <p class="fakta-tal">69%</p>
+            <span class="fakta-tal-streg" aria-hidden="true"></span>
+        </div>
+
+        <div class="fakta-tekst">
+        <p>
+            Af børn og unge mellem 9 og 17 år havde oplevet mindst én digital krænkelse eller anden ubehagelig oplevelse online.
+        </p>
+         
+        <p>
+        Det understreger, hvorfor det er vigtigt at behandle hinanden med respekt online og vide, hvad man kan gøre, hvis noget føles ubehageligt.
+    </p>
+
+        </div>
+
+
+
+    <p class="kilde">
+        Kilde: Red Barnet (2024), undersøgelse om digitale krænkelser.
+
+    </p>
+
+    </div>
+
+</section>
+
+</main>
+
+<!--Footer-->
+<footer class="footer">
+    <div class="footer-logo">
+
+        <a href="index.html" class="logo">Ufiltreret</a>
+
+        <p>
+            SAMMEN PASSER VI PÅ HINANDEN 
+            & SKABER ET SUNDERE ONLINE MILJØ
+        </p>
+    </div>
+
+    <div class="footer-navigation">
+        <h2>Navigation</h2>
+
+        <ul>
+            <li><a href="index.html">Forside</a></li>
+            <li><a href="trivsel.html">Trivsel online</a></li>
+            <li><a href="kontakt.html">Kontakt</a></li>
+        </ul>
+    </div>
+
+    <div class="footer-kontakt">
+        <h2>Kontakt</h2>
+
+        <address>
+            <a href="mailto:kontakt@ufiltreret.dk">
+                kontakt@ufiltreret.dk
+            </a>
+
+            <p>+45 12 34 56 67</p>
+            <p>Slagelse, Danmark</p>
+        </address>
+    
+    </div>
+
+    <div class="footer-sociale-medier">
+        <h2>Følg med</h2>
+
+         <div class="sociale-ikoner">
+                <i class="fa-brands fa-instagram" aria-hidden="true"></i>
+                <i class="fa-brands fa-tiktok" aria-hidden="true"></i>
+        </div>
+     </div>
+
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,240 @@
+/*Gode råd med ikonerne*/
+.raad-boks li {
+    font-family: 'Swanky and Moo Moo', cursive;
+    font-weight: 400;
+}
+
+/*Fjerner prikkerne ved de gode råd*/
+.raad-boks ul {
+list-style: none;
+padding: 0%;
+margin: 0%;
+}
+
+/*Trivsel online siden*/
+.trivsel-hero {
+    display: grid;
+    grid-template-columns: 1fr 40%;
+    align-items: center;
+    gap: 40px;
+    padding: 30px;
+}
+
+.trivsel-hero-text {
+    flex: 1;
+}
+
+.trivsel-hero-text h1 {
+    font-size: 32px;
+    line-height: 1.2;
+    margin: 10px 0;
+}
+
+.trivsel-hero-text p {
+font-size: 16px;
+line-height: 1.6;
+margin: 0 0 12px;
+}
+
+.trivsel-hero-image {
+    width: 100%;
+}
+
+.trivsel-hero-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/*Genvejs knapper*/
+.emne-genveje {
+    display: flex;
+    gap: 20px;
+    padding: 0 30px 25px;
+    border-bottom:  1px solid var(--footer);
+}
+
+.emne-genveje a {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--footer);
+    color: var(--tekst);
+    font-family: 'Lora', serif;
+    font-weight: 600;
+    font-size: 15px;
+    text-align: center;
+    text-decoration: none;
+    padding: 14px 12px;
+    border-radius: 6px;
+}
+
+/*Hover på genvej knapper*/
+.emne-genveje a:hover {
+    background-color: var(--fakta-knap);
+}
+
+/*Tastatur fokus*/
+.emne-genveje a:focus-visible {
+    outline: 3px solid var(--overskrift);
+    outline-offset: 3px;
+}
+
+/*Trivsel online - emne bokse*/
+.trivsel-emne {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr 1.5fr;
+    gap: 20px;
+    align-items: start;
+    padding: 25px 0 25px 30px ;
+    border-bottom: 1px solid var(--footer);
+}
+
+/*Billederne*/
+.trivsel-billede img {
+    width: 100%;
+    aspect-ratio: 4 / 3;
+    object-fit: cover;
+    display: block;
+    border-radius: 6px;
+}
+
+/*Tekst i emne afsnit*/
+.trivsel-tekst h2 {
+    font-size: 23px;
+    margin: 0 0 8px;
+}
+
+.trivsel-tekst p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0 0 10px;
+}
+
+/*Kilderne*/
+.trivsel-tekst .kilde {
+    font-size: 14px;
+    line-height: 1.5;
+    font-style: italic;
+}
+
+/*Gode råd boks*/
+.raad-boks {
+    background-color: var(--raad-kort);
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.raad-boks h3 {
+    font-size: 20px;
+    margin: 0 0 15px;
+}
+
+.raad-boks ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.raad-boks li {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    font-family: 'Source Sans 3';
+    font-size: 19px;
+    margin-bottom: 18px;
+    line-height: 1.6;
+}
+
+.raad-boks li i {
+    flex-shrink: 0;
+    margin-top: 3px;
+}
+
+/*Responsivt design*/
+
+/*Mobil - Trivsel Online*/
+@media (max-width: 600px) {
+    .trivsel-hero {
+        grid-template-columns: 1fr;
+        gap: 20px;
+        padding: 25px 20px;    
+    }
+
+    .trivsel-hero-image img {
+        width: 100%;
+        height: auto;
+    }
+
+    .trivsel-emne {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 20px;
+        padding: 20px;
+    }
+
+    .trivsel-emne > div {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .raad-boks {
+        width: 100%;
+        border-radius: 0;
+    }
+}
+
+/*Fakta fra Red Barnet*/
+.fakta {
+    padding: 40px 30px;
+
+}
+
+.fakta-indhold {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.fakta-tal-område {
+    flex-shrink: 0;
+    margin-top: -8px;
+}
+
+.fakta-tal {
+    font-family: 'Lora', serif;
+    font-size: 52px;
+    font-weight: 700;
+    color: var(--overskrift);
+    margin: 0;
+}
+
+.fakta-tal-streg {
+    display: block;
+    width: 100%;
+    height: 5px;
+    background-color: var(--footer);
+    border-radius: 5px;
+}
+
+.fakta-indhold > p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.fakta .kilde {
+    font-size: 14px;
+    line-height: 1.5;
+    font-style: italic
+}
+
+.fakta-tekst p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin: 0 0 12px;
+}
+
+.fakta-tekst p:last-child {
+    margin-bottom: 0;
+}
